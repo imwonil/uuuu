@@ -1,0 +1,225 @@
+
+table {
+	padding:10px;
+	border-collapse: collapse;
+	width: 100%;
+	margin:auto;
+  }
+  
+  th,
+  td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+  }
+  /*옮길때 불투명으로 보이는 부분*/
+  tr.dragging {
+	opacity: 0.5;
+  }
+  
+  /* 별개 부분 */
+  a {
+	text-decoration: none;
+	color: inherit;
+  
+  }
+  .tab {
+	display: flex;
+	align-items: center;
+	padding: 8rem;
+  }
+  .tab__item {
+	padding: .6rem 3.3rem;
+  align-items: center;
+	margin-right: 1rem;
+	border: 1px solid #000000;
+  /* 타원형 굵기 */
+	border-radius: 10rem;
+  /* 타원형 R 값 */
+  /* font-family: arial;
+  font-size: 20px;
+  margin: 100px;
+  width: 80px;
+  height:30px; */
+  outline:  1px black;
+  }
+  .tab__item.active {
+	display: inline-block;
+	border: 1px solid #b81c0f;
+	background-color: #b81c0f;
+	color: #fff;
+  }
+  .tab__content-wrapper {
+	padding: 1rem
+  }
+  .tab__content {
+	display: none;
+  }
+  .pl {
+
+    padding: .9rem 47.7rem;
+    align-items: center;
+    margin-right: 50rem;
+    margin : 3px 11em 0 auto;
+    border: 1px solid #000000;
+    /* 타원형 굵기 */
+    border-radius: 40rem;
+    /* 타원형 R 값 */
+    /* font-family: arial;
+    font-size: 20px;
+    margin: 100px;
+    width: 80px;
+    height:30px; */
+    outline:  1px black;
+    height: 50%;
+  }
+  /* .tab__content.active {
+	display:  none;
+ 
+  } */
+  .pl_2{
+    width: 200px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.pl:focus{
+    border: 1px solid #9B51E0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: 3px solid #F8E4FF;
+    border-radius: 10px;
+}
+.detail {
+
+  padding: .9rem 47.7rem;
+  align-items: center;
+  margin-right: 50rem;
+  margin : 3px 11em 0 auto;
+  border: 1px solid #eae8e8;
+  /* 타원형 굵기 */
+  border-radius: 40rem;
+  /* 타원형 R 값 */
+  /* font-family: arial;
+  font-size: 20px;
+  margin: 100px;
+  width: 80px;
+  height:30px; */
+  outline:  1px black;
+  height: 50%;
+  display:  none;
+  font-size: 20px;
+    }
+.details
+{
+  display:  none;
+
+}
+.button
+{
+    background: #000000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size:22px;
+    
+    cursor: pointer;
+    margin : 22px 20em 0 auto;
+  }
+ 
+    
+  .search{
+    background: #e9e6e6;
+    width: 80%;
+    border: 0;
+    padding: 15px;
+    color: #000000;
+    font-size:22px;
+    
+    cursor: pointer;
+    margin : 22px 20em 0 auto;
+    display:  none;
+  }
+  #button_2
+  {
+      background: #000000;
+      width: 80%;
+      border: 0;
+      padding: 15px;
+      color: #FFFFFF;
+      font-size:22px;
+      
+      cursor: pointer;
+      margin : 22px 20em 0 auto;
+      display:  none;
+    }
+    #expiryDay {
+      padding: .9rem 47.7rem;
+  align-items: center;
+  margin-right: 50rem;
+  margin : 3px 11em 0 auto;
+  border: 1px solid #eae8e8;
+  /* 타원형 굵기 */
+  border-radius: 40rem;
+  /* 타원형 R 값 */
+  /* font-family: arial;
+  font-size: 20px;
+  margin: 100px;
+  width: 80px;
+  height:30px; */
+  outline:  1px black;
+  height: 50%;
+ 
+  font-size: 20px;
+      
+     
+
+    }
+    .detail2 {
+
+      padding: .9rem 47.7rem;
+      align-items: center;
+      margin-right: 50rem;
+      margin : 3px 11em 0 auto;
+      border: 1px solid #eae8e8;
+      /* 타원형 굵기 */
+      border-radius: 40rem;
+      /* 타원형 R 값 */
+      /* font-family: arial;
+      font-size: 20px;
+      margin: 100px;
+      width: 80px;
+      height:30px; */
+      outline:  1px black;
+      height: 50%;
+      display:  none;
+      font-size: 20px;
+        }
+        .detail3 {
+
+          padding: .9rem 47.7rem;
+          align-items: center;
+          margin-right: 50rem;
+          margin : 3px 11em 0 auto;
+          border: 1px solid #eae8e8;
+          /* 타원형 굵기 */
+          border-radius: 40rem;
+          /* 타원형 R 값 */
+          /* font-family: arial;
+          font-size: 20px;
+          margin: 100px;
+          width: 80px;
+          height:30px; */
+          outline:  1px black;
+          height: 50%;
+          display:  none;
+          font-size: 20px;
+            }

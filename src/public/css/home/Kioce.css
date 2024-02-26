@@ -1,0 +1,49 @@
+table {
+	padding:10px;
+	border-collapse: collapse;
+	width: 50%;
+	margin:auto;
+  }
+  
+  th,
+  td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+  }
+  /*옮길때 불투명으로 보이는 부분*/
+  tr.dragging {
+	opacity: 0.5;
+  }
+  
+  /* 별개 부분 */
+  a {
+	text-decoration: none;
+	color: inherit;
+  }
+  .tab {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+  }
+  .tab__item {
+	padding: 0.6rem 1.3rem;
+	margin-right: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 2rem;
+  }
+  .tab__item.active {
+	display: inline-block;
+	border: 1px solid #b81c0f;
+	background-color: #b81c0f;
+	color: #fff;
+  }
+  .tab__content-wrapper {
+	padding: 1rem
+  }
+  .tab__content {
+	display: none;
+  }
+  .tab__content.active {
+	display: block;
+  }

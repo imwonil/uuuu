@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/adminTimeAdd.css">
+    <script src="/js/home/adminTimeAdd.js" defer></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" ></script>
+   
+    <title>Document</title> 
+</html> 
+<body> 
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>HC18</title>
+      <link rel="stylesheet" href="style.css" />
+      <script src="script.js"></script>
+    </head>
+     
+     <h2>사용자 시간 설정</h2>
+    
+      <div class="btn">
+      <button id = "button">추가하기</button>
+      </div>
+ 
+ <!-- 탭 버튼 영역 -->
+
+
+<!-- 탭 내용 영역 START-->
+<div class="tab__content-wrapper">
+
+      <div id="tab1" class="tab__content active">
+      <div class="notice">
+        <h3> 시간 - 일자 추가</h3>
+      <input id = "userId"  type="text" placeholder="변경할 대상자"/>
+      <input id = "times" type="text" placeholder="시간 추가"/>
+       <input id = "days" type="text" placeholder="일자 추가"/>
+       <h3> 시간 - 일자 차감</h3>
+       <input id = "userId"  type="text" placeholder="변경할 대상자"/>
+       <input id = "subTime" type="text" placeholder="시간 차감"/>
+       <input id = "subDay" type="text" placeholder="일자 차감"/>
+</div>
+ 
+ 
+   </div>
+  <div id="tab2" class="tab__content">
+
+    <div class="notice">
+      <input id = "feeMame2"  type="text" placeholder="요금제 이름"/>
+      <input id = "feeTime" type="text" placeholder="요금"/>
+      
+      <input id = "time2" type="text" placeholder="시간"/>
+</div>
+ <table class="afternoon-session" cellspacing="1">
+  
+     <tr>
+      <th scope="row">등록한 일자</th>
+      <th scope="row">상품 이름</th>
+      <th scope="row">충전 시간</th>
+       <th scope="row">상태</th>
+       <th scope="row">유효기간</th>
+       <!-- <th scope="row">등록일</th> -->
+     </tr>
+   
+  
+ </table>
+   </div>
+
+  </div>
+  <div id="tab3" class="tab__content">
+    <div class="notice">
+      <input id = "feeMame"  type="text" placeholder="요금제 이름"/>
+      <input id = "daysfee" type="text" placeholder="요금"/>
+       <input id = "days" type="text" placeholder="일자"/>
+      <input id = "time" type="text" placeholder="시간"/>
+</div>
+ <table class="afternoon-session" cellspacing="1">
+  
+     <tr>
+      <th scope="row">등록한 일자</th>
+      <th scope="row">상품 이름</th>
+      <th scope="row">일일권 날짜 </th>
+       <th scope="row">상태</th>
+       <th scope="row">유효기간</th>
+       <!-- <th scope="row">등록일</th> -->
+     </tr>
+   
+  
+ </table>
+   </div>
+
+  </div>
+</div>
+
+       
+      </table>

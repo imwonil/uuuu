@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/adminUinfo.css">
+    <script src="/js/home/adminUinfo.js" defer></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" ></script>
+   
+    <title>Document</title> 
+</html> 
+<body> 
+  <div class="modal hidden">
+    
+    <div class="bg"></div>
+       <div class="modalBox">
+      <button class="closeBtn">x</button>
+      <p>이름 <h1 id="h1"></h1></p>  
+    
+     <button id ="detail" >상세정보</button>
+     <button id ="set" >자리이동</button>
+      <p>전화번호 <h3 id="h3"></h3></p>  
+      <ul class="menuCategory">
+       
+      </ul>
+        </div>
+  
+      </div>
+<!-- 제2의 모달 창 -->
+
+
+  
+      <table>
+        <!--  가로 정렬 제목 -->
+        <thead>
+          <tr>
+            <th>연락처</th>
+            <th>이름</th>
+            <th>상품명</th>
+            <th>남은시간</th>
+            <th>사용하고 있는 자리</th>
+          </tr>
+        </thead>
+        <!-- 새로 정렬 내용 -->
+    <tbody id = "openBtn" >
+     </tbody>
+     
+      </table>
+    </div>
+  </div>
+     
+</body>

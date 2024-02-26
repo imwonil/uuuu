@@ -1,0 +1,81 @@
+
+
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/userInfor.css">
+    <script src="/js/home/userInfor.js" defer></script>
+    <title>Document</title>
+
+<body>
+  
+<ul class="menuC">
+  <li><a>상품명</a></li>
+</ul>
+<h1 id = "userName"></h1>
+<ul class="menuCategory">
+ 
+  <li><a style="display: none" ></a></li> 
+  <li><a style="display: none" ></a></li> 
+  <li><a style="display: none" ></a></li>  
+  <li><a style="display: none" ></a></li>
+  <li><a style="display: none" ></a></li> 
+  <li><a style="display: none" ></a></li>
+  <li><a style="display: none" ></a></li> 
+  <li><a  style="display: none"> </a></li>
+  <li><a  style="display: none"> </a></li> 
+  <li><a style="display: none"></a></li>
+  <li><a style="display: none" ></a></li> 
+  <li><a style="display: none"></a></li>
+  <li><a style="display: none" ></a></li> 
+  <li><a style="display: none"></a></li>
+</ul>
+  <div class="container" >
+    <h1 id = "setName"  style ="display:none">좌석 번호</h1>
+    
+    <div class="expandable-boxes">
+       <div class="expandable-box" style ="display:none" >
+         <h2>상품명</h2>
+         <p id="goodsName"></p>
+      </div>
+      
+      <div class="expandable-box" style ="display:none">
+         <h2>남은시간</h2>
+        <p id ="UseTime "></p>
+      </div>
+      
+      <div class="expandable-box"  style ="display:none">
+         <h2>상품 종류</h2>
+        <p id="kind-goods"></p>
+      </div>
+      
+      <!-- <div class="expandable-box">
+         <h2>Box 4</h2>
+        <p>Now we have a box on the next row.</p>
+      </div> -->
+      
+      <div class="expandable-box" id="useSet">
+         <h2>사용하고 중인 자리</h2>
+         
+      </div>
+       
+      <div class="expandable-bo" >
+       
+    
+     </div>
+      <div class="expandable-box" id="useTime" >
+         <h2>상품 남은 시간</h2>
+       
+      </div>
+    </div>
+  </div class="button"> 
+  
+    
+    <button type="button" id="buy" class="button item2" value ="buy">요금제 구매</button>
+    <button type="button" id="start" class="button item3" value ="start">사용하기</button>
+    <button  type="button" id="move" class="button item4" value ="move" style="display:none" >좌석 변경</button>
+    <button  type="button" id="benchselection" class="button item1" value ="benchselection" style="display:none" >자리 선택</button>
+  </body>
+
+</html> 
+  

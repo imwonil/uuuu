@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/adminFee.css">
+    <script src="/js/home/adminFee.js" defer></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" ></script>
+   
+    <title>Document</title> 
+</html> 
+<body> 
+    
+    <!DOCTYPE html>
+    <html lang="en">
+      <!--모달창 부분start -->
+      <div class="modal hidden">
+          <div class="bg"></div>
+           <div class="modalBox">
+          <button class="closeBtn">x</button>
+           <h3>요금제 이름</h3>
+         <P> <input id ="modal-feeName"  type="text" placeholder="요금제 이름"/></P>
+         <h3>요금</h3>
+         <P><input id = "modal-fee" type="text" placeholder="요금"/></P>
+         <h3>유효기간</h3>
+        <P><input id = "modal-expiry" type="text" placeholder="유효기간"/></P>
+         <div> 
+         <p> <button class="box item1" value ="resave">수정</button> </p>
+         <p>  <button class="box item2" value = "deleted">삭제</button></p>
+        </div>
+             </select>
+           </div>  
+      </div>
+    <!--모달창 부분EnD -->
+    
+  
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>HC18</title>
+      <link rel="stylesheet" href="style.css" />
+      <script src="script.js"></script>
+    </head>
+     
+     <h2>상품등록 설정</h2>
+    
+      <div class="btn">
+      <button id = "button">추가하기</button>
+      </div>
+ 
+
+
+   <!-- Tap 키 기능 Start -->
+ <dv> 
+<ul class="tab" >
+    <li class="tab__item active" id='fixedType'>
+    <a href="#tab1" id="RoomType">고정석</a>
+  </li>
+  
+  <li class="tab__item"  id = 'feeType' >
+    <a href="#tab2">충전권</a>
+  </li>
+  <li class="tab__item"  id = 'daysType'>
+    <a href="#tab3">요일제</a>
+  </li>
+  
+</ul>
+</dv>
+<!--Tap 키 기능 End -->
+
+<div class="tab__content-wrapper" >
+
+  <div id="tab1" class="tab__content active fixed" >
+    <div class="notice" id ="style"style ="display:none">
+      <input id = "feeName"  type="text"  placeholder="요금제 이름"/>
+      <input id = "fee" type="text" placeholder="요금"/>
+      <input id = "expiry" type="text" placeholder="유효기간"/>
+      
+</div>
+ 
+ <table class="afternoon-session" cellspacing="1">
+   
+   <tbody id = "k">
+     <tr>
+      <th scope="row">Type</th>
+      <th scope="row">상품 이름</th>
+      <th scope="row">금액 </th>
+       <th scope="row">상태</th>
+       <th scope="row">유효기간</th>
+ 
+       <!-- <th scope="row">등록일</th> -->
+     </tr>
+    </tbody>
+ </table>
+   </div>
+   <!-- 탭 내용 영역 START--> <!-- 충전권 -->
+ 
+ 
+   <div id="tab2" class="tab__content">
+
+    <div class="notice">
+      <input id = "feeMame2"  type="text" placeholder="요금제 이름"/>
+      <input id = "feeTime" type="text" placeholder="요금"/>
+      <input id = "expiry2" type="text" placeholder="유효기간"/>
+</div>
+ <table class="afternoon-session" cellspacing="1" >
+  <div > 
+  <tbody id = "ree" >
+   
+    <tr>
+      <th scope="row">Type</th>
+      <th scope="row">상품 이름</th>
+      <th scope="row">금액 </th>
+       <th scope="row">상태</th>
+       <th scope="row">유효기간</th>
+ 
+       <!-- <th scope="row">등록일</th> -->
+ 
+   
+    </tbody>
+ </table>
+   </div>
+  
+  </div>
+  <div id="tab3" class="tab__content">
+    <div class="notice">
+      <h3>요금제 이름</h3>
+      <input id = "feeMame3"  type="text" placeholder="요금제 이름"/>
+      <h3>요금</h3>
+      <input id = "Days" type="text" placeholder="요금"/>
+      <h3>유효기간</h3>
+      <input id = "expiry3" type="text" placeholder="유효기간"/>
+</div>
+ <table class="afternoon-session" cellspacing="1">
+  <tbody id = "rs">
+     <tr>
+      <th scope="row">Type</th>
+      <th scope="row">상품 이름</th>
+      <th scope="row">금액 </th>
+       <th scope="row">상태</th>
+       <th scope="row">유효기간</th>
+ 
+       <!-- <th scope="row">등록일</th> -->
+     </tr>
+    </tbody>
+  
+ </table>
+   </div>
+
+  </div>
+</div>
+
+       
+      </table>
+     
+    
+    
+    
+    
+    </html>
+    
+
+</body>

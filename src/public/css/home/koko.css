@@ -1,0 +1,398 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* li start */
+
+  
+      .menuCategorys {   
+        zoom: 1;
+        overflow: hidden;
+        padding: 1px 0 60px;
+        /* 작은 사각형 움직임 */
+        margin: 2% 0  1%;
+        /* box 안에서 위  */
+        top:200px;}
+        
+     
+      .menuCategorys li {
+            
+        list-style:none;
+        float: left;
+        width: 16%;
+         /* 옆크기 */
+        min-width: 100px;
+        color: #0c0b0b;
+        margin: 7% 2%  -2%;}
+        /* li a 간에 위 아래 마진, */
+        .menuCategorys li a {
+          
+          height:30px;
+          /* 높이 */
+          border-radius: 0.3rem;
+          /* 타원형 R value */
+          text-decoration:none;
+          color: #000000;
+          /* 라인 글 짜색 */
+          display: block;
+         
+          /* li a 크기 */
+          padding: 1px 10px 4px;
+          /* 글자 위 좌우  */
+          font-size: 12px;
+          line-height: 25px;
+          /* 글자 위치 */
+          border: 1px solid #000000;
+          text-align: center;
+          transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -webkit-transition: all 0.3s ease-in-out;
+          box-sizing: border-box;
+          -ms-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          border: 1px solid #000000; 
+          /* 표라인 색상 */
+          -webkit-box-sizing: border-box;}   
+
+
+
+  
+ 
+  .tab {
+	display: flex;
+	/* align-items: center; */
+	padding: 2rem;
+  margin : 10px 30em 0 auto;
+          /* 위  좌우   */
+      transform: translateX( 100%);
+  }
+  .tab__item {
+	padding: .6rem 3.3rem;
+  align-items: center;
+	margin-right: 1rem;
+	border: 1px solid #000000;
+  /* 타원형 굵기 */
+	border-radius: 10rem;
+  /* 타원형 R 값 */
+  /* font-family: arial;
+  font-size: 20px;
+  margin: 100px;
+  width: 80px;
+  height:30px; */
+  outline:  1px black;
+  }
+  .tab__item.active {
+	display: inline-block;
+	border: 1px solid #b81c0f;
+	background-color: #b81c0f;
+	color: #fff;
+  }
+  .tab__content-wrapper {
+	padding: 1rem
+  }
+  .tab__content {
+	display: none;
+  }
+ 
+  html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#5883d3, #d9dee4);
+  }
+ 
+
+  
+
+
+
+
+.box1{
+  display: block;
+  position: absolute;
+  top: 30%;
+  /* 숫가 높을수록 아래로 */
+  left: 90%;
+  width: 800px;
+  height:170px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  z-index: 99999;
+  transform:translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10px;
+  height: calc(100%/9);
+
+  padding: 7px 6px;
+  border: 2px solid #ccc;
+  /* 사각틀 라인 두꼐 */
+  border-radius: 10px;
+  /* 사각 r값 */
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.box2{
+  display: block;
+  position: absolute;
+  top: 50%;
+  /* 숫가 높을수록 아래로 */
+  left: 90%;
+  width: 800px;
+  height:170px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  z-index: 99999;
+  transform:translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10px;
+  height: calc(100%/9);
+
+  padding: 12px 8px;
+  border: 2px solid #ccc;
+  /* 사각틀 라인 두꼐 */
+  border-radius: 10px;
+  /* 사각 r값 */
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.box3{
+  display: block;
+  position: absolute;
+  top: 70%;
+  /* 숫가 높을수록 아래로 */
+  left: 90%;
+  width: 800px;
+  height:170px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  z-index: 99999;
+  transform:translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10px;
+  height: calc(100%/9);
+
+  padding: 12px 8px;
+  border: 2px solid #ccc;
+  /* 사각틀 라인 두꼐 */
+  border-radius: 10px;
+  /* 사각 r값 */
+  cursor: pointer;
+  font-size: 12px;
+}
+.box4{
+  display: block;
+  position: absolute;
+  top: 90%;
+  /* 숫가 높을수록 아래로 */
+  left: 90%;
+  width: 800px;
+  height:170px;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  z-index: 99999;
+  transform:translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10px;
+  height: calc(100%/9);
+
+  padding: 12px 8px;
+  border: 2px solid #ccc;
+  /* 사각틀 라인 두꼐 */
+  border-radius: 10px;
+  /* 사각 r값 */
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* 모달창 */
+.modal {
+	position: fixed;
+	top: -300px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal .bg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.modalBox {
+	position: absolute;
+	background-color: #fff;
+	width: 1000px;
+	height: 600px;
+	padding: 20px;
+}
+.closeBtn  {
+  top: 100%;
+	left: 60;
+  width: 10px;
+	height: 12px;
+	padding: 30px;
+  height: 30px;
+}
+
+.modalBox button {
+  outline: 0;
+  background: #000000;
+  width: 100%;
+  border: 0;
+  margin: 16 16 19px;
+  padding: 2px;
+ 
+  font-size: 25px;
+  color: #FFFFFF
+
+}
+#button {
+
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+
+}
+
+.hidden {
+	display: none;
+}
+.openBtn {
+	display: block;
+	margin: 30px auto;
+}
+#set{
+
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.inputTime {
+  /* font-family: "Roboto", sans-serif; */
+  background: #f2f2f2;
+  width: 40%;
+  border: 1;
+  margin: 10px 0 10px;
+  padding: 15px;
+  /* box-sizing: border-box; */
+  font-size: 14px;
+
+
+}
+.inputDay {
+  /* font-family: "Roboto", sans-serif; */
+  
+  background: #f2f2f2;
+  width: 40%;
+  border: 1;
+  margin: 10px 0 10px;
+  padding: 15px;
+  /* box-sizing: border-box; */
+  font-size: 14px;
+
+
+}
+.texts{
+
+  background: #ffffff;
+  width: 93%;
+  border: 1;
+  margin: 30px 0 10px;
+  padding: 30px;
+  /* box-sizing: border-box; */
+  font-size: 20px;
+  height: 110px;
+}
+
+/* modal2 */
+.modal2 {
+	position: fixed;
+	top: -300px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal2 .bg2 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.modalBox2 {
+	position: absolute;
+	background-color: #fff;
+	width: 1000px;
+	height: 600px;
+	padding: 20px;
+}
+.closeBtn2 {
+  top: 100%;
+	left: 60;
+  width: 10px;
+	height: 12px;
+	padding: 30px;
+  height: 30px;
+}
+
+.modalBox2 button {
+  outline: 0;
+  background: #000000;
+  width: 100%;
+  border: 0;
+  margin: 16 16 19px;
+  padding: 2px;
+ 
+  font-size: 25px;
+  color: #FFFFFF
+
+}
+
+
+.hidden2 {
+	display: none;
+}
+.openBtn2 {
+	display: block;
+	margin: 30px auto;
+}

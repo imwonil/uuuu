@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/koko.css">
+    <script src="/js/home/koko.js" defer></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" ></script>
+    <script src="https://unpkg.com/hangul-js" type="text/javascript"></script>
+    <title>Document</title> 
+</html> 
+<body> 
+
+ 
+
+  <ul class="tab">
+    <li class="tab__item active" id="detail" >
+      <a href="#tab1">알림톡 설정</a>
+      
+
+    </li>
+    <li class="tab__item" id="enter">
+      <a href="#tab2">문열기</a> 
+    </li> 
+    <li class="tab__item" id="next">
+      <a href="#tab3">퇴실</a>
+    </li>
+    
+  </ul>
+  
+  <!-- 탭 내용 영역 //////////////////////////////////// -->
+  <div class="tab__content-wrapper" >
+     <div id="tab1" class="tab__content active" >
+      
+    </div>
+    
+    <div id="tab2" class="tab__content">
+      
+    </div>
+    <div id="tab3" class="tab__content">
+                       
+  </div>
+
+  
+
+  <div class = "box1">
+
+    <ul class="menuC">
+         <li id="goodsNmae" style="display:none"><a>상품명</a></li>
+   
+      
+          <h1 id = "userName"></h1>
+          <ul class="menuCategorys">
+          <li> <a  class="checks cd1" data-id="0"  id="0" >미사용</a></li>
+           <li><a style= "width: 420px" class="koko"data-id="0" id="openBtn2">알림톡 문구 확인</a></li> 
+           <li><a style="display:none" >37</a></li>
+           <li><a style="display:none">4 </a></li>
+           <li><a  style= "width: 120px"  id ="fixedDeadine" class = "deadines dea1" data-id="0" >메세지작성</a></li> 
+           <li><a style="display:none" >37</a></li>
+        <li><a style="display:none" >37</a></li>
+        <li><a class="save" id="0" >저장</a></li>
+          
+       </ul>
+       
+  </div>
+  <div class ="box2">
+    <ul class="menuC">
+         <li id="goodsNmae" style="display:none"><a>상품명</a></li>
+         <h1 id = "userName"></h1>
+       <ul class="menuCategorys">
+       
+        <li> <a  class="checks cd2"data-id="1" id="0" >미사용</a></li>
+        <li><a style= "width: 420px" class="koko" data-id="1"id="openBtn2">알림톡 문구 확인</a></li> 
+         <li><a style="display:none" >37</a></li>
+         <li><a style="display:none">4 </a></li>
+         <li><a style= "width: 120px"  id ="feeDeadine" class = "deadines dea1" data-id="1"  >메세지작성 </a></li> 
+         <li><a style="display:none" >37</a></li>
+        <li><a style="display:none" >37</a></li>
+        <li><a class="save sa2" id="1" >저장</a></li>
+      
+       </ul>
+       
+  </div>
+  <div class = "box3">
+    <ul class="menuC">
+        <li id="goodsNmae" style="display:none"><a>상품명</a></li>
+        <h1 id = "userName"></h1>
+       <ul class="menuCategorys">
+        <li> <a  class="checks cd3" data-id="2" id="0">미사용</a></li>
+        <li><a style= "width: 420px" class="koko" data-id="2" id="openBtn2">알림톡 문구 확인</a></li> 
+        <li><a style="display:none" >37</a></li>
+        <li><a style="display:none" >4 </a></li>
+        <li><a  style= "width: 120px"  id ="expiryDeadine" class = "deadines dea1"  data-id="2">메세지작성 </a></li> 
+        <li><a style="display:none" >37</a></li>
+        <li><a style="display:none" >37</a></li>
+        <li><a class="save sa3" id="2">저장</a></li>
+        </ul>
+       
+  </div>
+  <div class ="box4">
+
+    <ul class="menuC">
+         <li id="goodsNmae" style="display:none"><a>상품명</a></li>
+       </ul>
+       <h1 id = "userName"></h1>
+       <ul class="menuCategorys">
+       <li> <a  class="checks cd4"data-id="3" id="0">미사용</a></li>
+       <li><a style= "width: 420px" class="koko" data-id="3"id="openBtn2">알림톡 문구 확인</a></li> 
+        <li><a style="display:none" >37</a></li>
+        <li><a  style="display:none">4 </a></li>
+        <li><a  style= "width: 120px"  id ="information" class = "deadines dea1" data-id="3" >메세지작성 </a></li> 
+        <li><a style="display:none" >37</a></li>
+        <li><a style="display:none" >37</a></li>
+        <li><a class="save sa3" id="3">저장</a></li>
+        
+       </ul>
+     
+  
+  
+       <div class="modal hidden">
+    
+        <div class="bg"></div>
+           <div class="modalBox">
+          <button class="closeBtn">x</button>
+          
+          <input class="texts"id ="time" type="text" placeholder="회원에게 보낼 메세지"/>
+          <h3>종료일로 전 보낼 일</h3>
+          <input class="inputDay"id ="day" type="text" placeholder="보낼 요일"/>
+          <h3>종료일로 전 보낼 시간</h3>
+          <input class="inputTime"id ="time" type="text" placeholder="보낼 시간"/>
+          
+       
+         <button id ="set" >설정하기</button>
+         
+  </div>
+
+  
+  <div class="modal2 hidden2">
+    
+    <div class="bg2"></div>
+       <div class="modalBox2">
+        
+        <button class="closeBtn2">x</button>
+      
+        <h2 id="h2"> </h2>
+        <h3 id="h3"> </h3>
+   
+     </div>
+     
+</div>
+</body>

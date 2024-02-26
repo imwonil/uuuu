@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form #button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form #button:hover,.form #button:active,.form #button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: rgb(141,194,111);
+  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+/* 키보드 zoon */
+
+
+.menuCategory {   
+  zoom: 1;
+  overflow: hidden;
+  padding: 0 0 10px;
+  margin: 1% 0  1%;}
+.menuCategory li {
+      
+  list-style:none;
+  float: left;
+  width: 6%;
+   /* 옆크기 */
+  min-width: 20px;
+  color: #0c0b0b;
+  margin: 1% 1%  1%;}
+  /* 위 아래 마진, */
+  .menuCategory li a {
+    
+    height:28px;
+    /* 높이 */
+    border-radius: 0.3rem;
+    /* 타원형 R value */
+    text-decoration:none;
+    color: #f2efef;
+    /* 라인 글 짜색 */
+    display: block;
+   
+    /* li a 크기 */
+    padding: 6px 11px 4px;
+    /* 위 좌우  */
+    font-size: 11px;
+    line-height: 20px;
+    border: 1px solid #f4eded;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #ffffff; 
+    /* 표라인 색상 */
+    -webkit-box-sizing: border-box;}   
+    .menuCategory {   
+  zoom: 1;
+  overflow: hidden;
+  padding: 0 0 10px;
+  margin: 1% 0  1%;}
+.menuCategory li {
+      
+  list-style:none;
+  float: left;
+  width: 7%;
+   /* 옆크기 */
+  min-width: 30px;
+  color: #ffffff;
+  margin: 1% 0.8%  1%;}
+  /* 위 아래 마진, */
+
+   
+
+
+.box1{
+  display: block;
+  position: absolute;
+  top: 80%;
+  /* 숫가 높을수록 아래로 */
+  left: 50%;
+  width: 800px;
+  
+  background: #2c2b2b;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  z-index: 99999;
+  transform:translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10px;
+  height: calc(100%/4.5);
+/* 높이 조절 */
+  padding: 12px 8px;
+  border: 18px solid #ccc;
+  /* 사각틀 라인 두꼐 */
+  border-radius: 10px;
+  /* 사각 r값 */
+  cursor: pointer;
+  font-size: 12px;
+}

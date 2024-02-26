@@ -1,0 +1,18 @@
+[
+    {
+        "sendName": "fixedDeadine",
+        "Text": "마감이 임박 했습니다",
+        "send": "YES",
+        "set": "1",
+        "daySend": "33",
+        "timeSend": 60
+    },
+    {
+        "sendName": "feeDeadine",
+        "Text": "ㅇㄴㄹㅇㄴㄹ",
+        "send": "YES",
+        "set": "1",
+        "daySend": "",
+        "timeSend": 15900
+    }
+]

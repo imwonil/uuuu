@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/adminViews.css">
+    <script src="/js/home/adminViews.js" defer></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" ></script>
+   
+    <title>Document</title> 
+</html> 
+<body> 
+
+
+    
+<div class="modal hidden" >
+    
+	<div class="bg" ></div>
+     <div class="modalBox">
+		<button class="closeBtn" >닫기 </button>
+		      <p>이름 <h1 id="h1"></h1></p>  
+              <p>전화번호 <h3 id="h3"></h3></p>  
+              <div class="forciblyStart">
+              <button class="forciblyStart" id="forccEnd">강제 퇴실</button>
+               </div>  
+        	 
+	</div> 
+    
+</div> 
+
+<div class="modal2 hidden2" >
+    
+	<div class="bg2" ></div>
+     <div class="modalBox2">
+		<button class="closeBtn2" >닫기 </button>
+		  <h2> 점유할 시간 </h2>
+
+    <h3>점유할 시간</h3>
+    
+      <input class="inputTime"id ="time" type="text" placeholder="점유할 시간을 정해주세요 "/>
+      <h3>점유할 요일</h3>
+      <input class="inputDay"id ="day" type="text" placeholder="점유할 요일를 정해주세요"/>
+      <button class="buttonsu" >확인</button>
+    
+	</div> 
+    
+</div> 
+    
+
+    
+
+<div class="buttons" id ="openBtn">
+    
+  <button  id = "1set"  value ="1"  data-id ="" class="btn-hover color-1"> 1set </button>
+  <button  id = "2set"  value ="2"  data-id ="" class="btn-hover color-2"> 2set</button>
+  <button  id = "3set"  value ="3"  data-id ="" class="btn-hover color-3"> 3set </button>
+  <button  id = "4set"  value ="4"  data-id ="" class="btn-hover color-4"> 4set</button>
+  <button  id = "5set"  value ="5"  data-id ="" class="btn-hover color-5"> 5set </button>
+  <button  id = "6set"  value ="6"  data-id ="" class="btn-hover color-6"> 6set</button>
+  <button  id = "7set"  value ="7"  data-id ="" class="btn-hover color-7"> 7set </button>
+  <button  id = "8set"" value ="8"  data-id ="" class="btn-hover color-8"> 8set</button>
+  <button  id = "9set"  value ="9"  data-id ="" class="btn-hover color-9"> 9set </button>
+  <button  id = "10set" value ="10"  data-id ="" class="btn-hover color-10"> 10set</button>
+  <button  id = "11set"  value ="11"  data-id ="" class="btn-hover color-9"> 11set </button>
+  <button  id = "12set" value ="12"  data-id ="" class="btn-hover color-10"> 12set</button>
+  <button  id = "13set"  value ="13"  data-id ="" class="btn-hover color-9"> 13set </button>
+  <button  id = "14set" value ="14"  data-id ="" class="btn-hover color-10"> 14set</button>
+  <button  id = "15set"  value ="15"  data-id ="" class="btn-hover color-9"> 15set </button>
+  <button  id = "16set" value ="16"  data-id ="" class="btn-hover color-10"> 16set</button>
+  <button  id = "17set" value ="17"  data-id ="" class="btn-hover color-10"> 17set</button>
+    </div>
+
+</div>
+
+     <p> <h3 id = "expiry"> 전화번호 검색 </h3>   
+      <input class="clos" id = "searchID" type="text" placeholder="전번 번호 검색"/> </p>  
+      <button class ="search">다음</button>
+      <table>
+        <!--  가로 정렬 제목 -->
+       
+        <thead>
+          <tr class ="phonName">
+            <th>전화 번호</th>
+            <th>이름</th>
+
+           </tr>
+        </thead>
+      </div>
+        <tbody> 
+        
+        </tbody>
+        </table>
+<h2 class="details"> 상품 선택 하세요 </h2>
+
+<select name="likeLanguage" id="detail" class="detail">
+<option>상품 선택</option>
+ </select>
+ <button class ="searchStart" >강제 시작</button>
+ 
+ <div class="forciblyStart" id ="openBtn2">
+  <button class="forciblyStart" id="forccStart">강제 점유 시작</button>
+   </div>
+  <!-- <div class="forciblyStart">
+  <button class="forciblyStart" id="forccStart">강제 점유 시작</button>
+ <button class="forciblyStart" id="forccEnd">강제 퇴실</button>
+ </div> -->
+</body>
